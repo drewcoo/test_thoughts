@@ -50,6 +50,14 @@ Instead, we can do continuous deployment, where any code change is tested as com
 >Instead of risk being n * n, it's (1 + 1) * n (risk of the change plus risk of interaction with status quo times the number of changes).
 
 
+### Larger Teams == More Predictable
+
+In large, established companies, large, predicably scheduled teams are the norm.
+
+One way to get ahead is by using a much smaller (.1x? .01x?) team to design and code up the same solution. This works. This is, over long time-frames, faster. But it's less predictable. It's higher risk.
+
+
+
 
 ## Software Security
 

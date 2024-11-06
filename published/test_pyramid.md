@@ -17,7 +17,7 @@
 
 ## 1. Overview
 
-The [test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) is a way of organizing and thinking about tests.
+The [test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) is a way of organizing and thinking about tests. Especially functional tests.
 
 Smaller, more localized tests give the fastest feedback, have the least work to create/maintain, and are easiest to diagnose. The more integration layers involved, the worse all of those traits are.
 
@@ -58,6 +58,8 @@ This also allows us to trivially reach 100% code coverage.
 >If races cannot be determined and reasoned about, you'll have to run stress tests - a desperate act, indeed.
 >
 >Also worth mentioning is that emergent effects from filter code will not be detected here. Most often fuzzing is the best answer for that. Once reasoning hits a wall, that is.
+
+Also, at service build time, we can do static analysis, which sometimes finds functional and sometimes not.
 
 #### 2.2.1. Data Stores
 
